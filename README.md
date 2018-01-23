@@ -41,3 +41,24 @@
     - arithmetic operator - 3
     - assignment operator - 4
       - ++i, then i++ + ++i - equals to two 
+      
+      
+      
+      #include <stdio.h>
+
+main() {
+int inner1, inner2, quotient, remainder, product, difference; 
+printf("Please enter two integers: \n"); 
+scanf("%d", &inner1);
+scanf("%d", &inner2); 
+quotient = inner1 / inner2;
+remainder = inner1 % inner2;
+product = inner1 * inner2;
+difference = inner1 - inner2;
+ 
+printf("Quotient: %d\n", quotient); 
+printf("Remainder: %d\n", remainder); 
+printf("Product: %d\n", product);
+printf("Difference: %d\n", difference); 
+}
+
